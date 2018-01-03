@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencv_projects"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv\;CMake Files\..\opencv\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexey/work/programming/opencv_projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexey/work/programming/opencv_projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexey/work/programming/opencv_projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_projects">
+				<Option output="/home/alexey/work/programming/opencv_projects/cmake-build-debug/opencv_projects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/work/programming/opencv_projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/alexey/work/programming/opencv/build"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/include/opencv"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudev/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/core/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaarithm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/flann/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/hdf/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/imgproc/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/ml/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/objdetect/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/video/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/viz/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudabgsegm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudafilters/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaimgproc/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudawarping/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/dnn/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/photo/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/shape/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/videoio/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudacodec/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/highgui/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/ts/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/features2d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/calib3d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudafeatures2d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudalegacy/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaobjdetect/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaoptflow/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudastereo/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/cvv/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/superres/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/videostab/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/sfm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_projects"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_projects/fast">
+				<Option output="/home/alexey/work/programming/opencv_projects/cmake-build-debug/opencv_projects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/work/programming/opencv_projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/alexey/work/programming/opencv/build"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/include/opencv"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudev/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/core/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaarithm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/flann/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/hdf/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/imgproc/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/ml/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/objdetect/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/video/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/viz/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudabgsegm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudafilters/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaimgproc/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudawarping/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/dnn/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/photo/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/shape/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/videoio/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudacodec/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/highgui/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/ts/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/features2d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/calib3d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudafeatures2d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudalegacy/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaobjdetect/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudaoptflow/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/cudastereo/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/cvv/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/superres/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/videostab/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv_contrib/modules/sfm/include"/>
+					<Add directory="/home/alexey/work/programming/opencv/sourse/opencv/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_projects/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexey/work/programming/opencv_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexey/work/programming/opencv_projects/main.cpp">
+			<Option target="opencv_projects"/>
+		</Unit>
+		<Unit filename="/home/alexey/work/programming/opencv_projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexey/work/programming/opencv_projects/../opencv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/alexey/work/programming/opencv_projects/../opencv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/alexey/work/programming/opencv_projects/../opencv/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
